@@ -1,23 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-40:12
 MERGED from [com.android.support:design:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/7221c600822b37785c8770455733d931/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/eee46711430023cd53e7a384ccc114b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/9e2b01ac5f9459309a283ed84769cace/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/7cfc9e7b85bf79d68cc011c12f918370/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/5a652ff1bc086d25df9b3668e267ec9a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/khalila/.gradle/caches/transforms-2/files-2.1/5a9484d401fcb185077118fd3c6bf136/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.volley:volley:1.1.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/24ddcb9248c716106dbd21419c038364/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/00d52455321c7a7a4ce695db857d5b88/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/8d0a24627df3c5d904f2694e53933fea/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/eee46711430023cd53e7a384ccc114b4/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/1d9bb2eda3cc5fc845d59889b831fd5c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/2aa77a962740340dc39ae3f4cd8b4e43/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/5e6ce6db788337fe409add8b1bb1a2f4/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/b493a6a2393c81d6bce4db08dad1fd21/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/a4f699b47a9a9ab5cdd3ac9526ab7a04/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/3ffa11a083abea7a9f6a24bbaf9bfb53/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/1331e6f3174ee7d595ee6979843f17ad/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/849efaf6667d813d5f335697619772b8/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:drawerlayout:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/efc3c849cb5f3dde74e8ffbb9e8a5c99/AndroidManifest.xml:17:1-22:12
@@ -25,33 +25,33 @@ MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/khalila/.gradle
 MERGED from [com.android.support:customview:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/50441a70908a224f2cb18e916c8ff30b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/28224195115950493284e87e0e7edb1d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/9792b98bbeaca7b9aad743274e6fd2c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/3ffa11a083abea7a9f6a24bbaf9bfb53/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/8b597ade2070707e26dde622b2f173d0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/0aea0c21f8296e3d16b9dd447273b60d/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/986482bbeb68cad7ec837ce7b14680d5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/9e2b01ac5f9459309a283ed84769cace/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/ed9c6e9eeb8e4e8bef55bf6232bd1a13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/4f4e9094488deccde0d316f21748fe81/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/462713306c7fbe2392afe3b95455355a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/3b9fd7744ee8decdc55b2507d2989488/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/86cb61e432602b7e11512cf2e9c1eef4/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/2e84fb334ebf2243a35bee7828fd1ee7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/4f4e9094488deccde0d316f21748fe81/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/fa43eefe82b924708b1410788c799192/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/5f1427b5166b480a136bb03a89feefa0/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/7f39d305b06731e3e87d45b7ac3d4b65/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml
 		INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-40:12
 		INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:1-40:12
 		INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:2:11-69
@@ -64,7 +64,7 @@ ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidMa
 	android:name
 		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:8:5-34:19
+ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:8:5-38:19
 MERGED from [com.android.support:design:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/7221c600822b37785c8770455733d931/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/7221c600822b37785c8770455733d931/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/khalila/.gradle/caches/transforms-2/files-2.1/5a9484d401fcb185077118fd3c6bf136/AndroidManifest.xml:9:5-20
@@ -91,50 +91,62 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/khalila/.grad
 		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:15:9-40
 	android:name
 		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:9:9-35
-activity#com.primagama.bondowoso.Homesiswa
+activity#com.primagama.bondowoso.Homeortu
 ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:16:9-19:68
 	android:label
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:18:13-61
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:18:13-60
 	android:theme
 		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:17:13-38
-activity#com.primagama.bondowoso.Login
-ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:20:9-43
-	android:name
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:20:19-40
-activity#com.primagama.bondowoso.Menu
-ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:21:9-42
-	android:name
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:21:19-39
-activity#com.primagama.bondowoso.Splashscreen
-ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:22:9-33:20
-	android:screenOrientation
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:26:13-49
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:17:13-37
+activity#com.primagama.bondowoso.Homesiswa
+ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:20:9-23:59
 	android:label
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:24:13-45
-	android:noHistory
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:25:13-37
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:22:13-61
 	android:theme
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:27:13-69
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:23:13-41
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:21:13-38
+activity#com.primagama.bondowoso.Login
+ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:24:9-43
+	android:name
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:24:19-40
+activity#com.primagama.bondowoso.Menu
+ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:25:9-42
+	android:name
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:25:19-39
+activity#com.primagama.bondowoso.Splashscreen
+ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:26:9-37:20
+	android:screenOrientation
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:28:13-45
+	android:noHistory
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:31:13-69
+	android:name
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:27:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:31:17-77
+ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml:35:27-74
 uses-sdk
 INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml
 INJECTED from /home/khalila/AndroidStudioProjects/Primagama2/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/7221c600822b37785c8770455733d931/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/7221c600822b37785c8770455733d931/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/eee46711430023cd53e7a384ccc114b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/eee46711430023cd53e7a384ccc114b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/9e2b01ac5f9459309a283ed84769cace/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/9e2b01ac5f9459309a283ed84769cace/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/7cfc9e7b85bf79d68cc011c12f918370/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/7cfc9e7b85bf79d68cc011c12f918370/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/5a652ff1bc086d25df9b3668e267ec9a/AndroidManifest.xml:20:5-44
@@ -147,8 +159,6 @@ MERGED from [com.android.support:support-fragment:28.0.0] /home/khalila/.gradle/
 MERGED from [com.android.support:support-fragment:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/00d52455321c7a7a4ce695db857d5b88/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/8d0a24627df3c5d904f2694e53933fea/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/8d0a24627df3c5d904f2694e53933fea/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/eee46711430023cd53e7a384ccc114b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/eee46711430023cd53e7a384ccc114b4/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/1d9bb2eda3cc5fc845d59889b831fd5c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/1d9bb2eda3cc5fc845d59889b831fd5c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/2aa77a962740340dc39ae3f4cd8b4e43/AndroidManifest.xml:20:5-44
@@ -159,8 +169,6 @@ MERGED from [com.android.support:support-media-compat:28.0.0] /home/khalila/.gra
 MERGED from [com.android.support:support-media-compat:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/b493a6a2393c81d6bce4db08dad1fd21/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/a4f699b47a9a9ab5cdd3ac9526ab7a04/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/a4f699b47a9a9ab5cdd3ac9526ab7a04/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/3ffa11a083abea7a9f6a24bbaf9bfb53/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/3ffa11a083abea7a9f6a24bbaf9bfb53/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/1331e6f3174ee7d595ee6979843f17ad/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/1331e6f3174ee7d595ee6979843f17ad/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/849efaf6667d813d5f335697619772b8/AndroidManifest.xml:20:5-44
@@ -175,16 +183,18 @@ MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/khalila/.gradl
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/28224195115950493284e87e0e7edb1d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/9792b98bbeaca7b9aad743274e6fd2c0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/9792b98bbeaca7b9aad743274e6fd2c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/3ffa11a083abea7a9f6a24bbaf9bfb53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/3ffa11a083abea7a9f6a24bbaf9bfb53/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/8b597ade2070707e26dde622b2f173d0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/8b597ade2070707e26dde622b2f173d0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/0aea0c21f8296e3d16b9dd447273b60d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/0aea0c21f8296e3d16b9dd447273b60d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/986482bbeb68cad7ec837ce7b14680d5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/986482bbeb68cad7ec837ce7b14680d5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/9e2b01ac5f9459309a283ed84769cace/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/9e2b01ac5f9459309a283ed84769cace/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/ed9c6e9eeb8e4e8bef55bf6232bd1a13/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/ed9c6e9eeb8e4e8bef55bf6232bd1a13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/4f4e9094488deccde0d316f21748fe81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/4f4e9094488deccde0d316f21748fe81/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/462713306c7fbe2392afe3b95455355a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/462713306c7fbe2392afe3b95455355a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/3b9fd7744ee8decdc55b2507d2989488/AndroidManifest.xml:20:5-44
@@ -193,8 +203,6 @@ MERGED from [com.android.support:print:28.0.0] /home/khalila/.gradle/caches/tran
 MERGED from [com.android.support:print:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/86cb61e432602b7e11512cf2e9c1eef4/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/2e84fb334ebf2243a35bee7828fd1ee7/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/2e84fb334ebf2243a35bee7828fd1ee7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/4f4e9094488deccde0d316f21748fe81/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/khalila/.gradle/caches/transforms-2/files-2.1/4f4e9094488deccde0d316f21748fe81/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/fa43eefe82b924708b1410788c799192/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/fa43eefe82b924708b1410788c799192/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/khalila/.gradle/caches/transforms-2/files-2.1/5f1427b5166b480a136bb03a89feefa0/AndroidManifest.xml:20:5-44

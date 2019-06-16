@@ -14,9 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Homeortu"
+            android:label="@string/title_activity_homeortu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".Homesiswa"
             android:label="@string/title_activity_homesiswa"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Login" />
         <activity android:name=".Menu" />
         <activity

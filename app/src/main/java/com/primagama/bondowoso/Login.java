@@ -56,12 +56,15 @@ public class Login extends AppCompatActivity {
 
     public final static String TAG_KELAS = "kelas";
     public final static String TAG_IDKELAS = "id_kelas";
+    public final static String TAG_ANAK = "anak";
+
+    public final static String TAG_USER = "user";
 
     String tag_json_obj = "json_obj_req";
 
     SharedPreferences sharedpreferences;
     Boolean session = false;
-    String id, username, kelas, id_kelas;
+    String id, username, kelas, id_kelas, user;
     public static final String my_shared_preferences = "my_shared_preferences";
     public static final String session_status = "session_status";
 
@@ -92,16 +95,40 @@ public class Login extends AppCompatActivity {
         username = sharedpreferences.getString(TAG_USERNAME, null);
         kelas = sharedpreferences.getString(TAG_KELAS, null);
         id_kelas = sharedpreferences.getString(TAG_IDKELAS, null);
+        user = sharedpreferences.getString(TAG_USER, null);
 
         // jika true maka start mainactivity
         if (session) {
-            Intent intent = new Intent(Login.this, Homesiswa.class);
-            intent.putExtra(TAG_ID, id);
-            intent.putExtra(TAG_USERNAME, username);
-            intent.putExtra(TAG_KELAS, kelas);
-            intent.putExtra(TAG_IDKELAS, id_kelas);
-            finish();
-            startActivity(intent);
+            switch (user){
+                case "siswa":
+                    Intent intent = new Intent(Login.this, Homesiswa.class);
+                    intent.putExtra(TAG_ID, id);
+                    intent.putExtra(TAG_USERNAME, username);
+                    intent.putExtra(TAG_KELAS, kelas);
+                    intent.putExtra(TAG_IDKELAS, id_kelas);
+                    finish();
+                    startActivity(intent);
+                    break;
+                case "ortu":
+                    Intent ortu = new Intent(Login.this, Homeortu.class);
+                    ortu.putExtra(TAG_ID, id);
+                    ortu.putExtra(TAG_USERNAME, username);
+                    ortu.putExtra(TAG_KELAS, kelas);
+                    ortu.putExtra(TAG_IDKELAS, id_kelas);
+                    finish();
+                    startActivity(ortu);
+                    break;
+                    default:
+                        break;
+
+            }
+//            Intent intent = new Intent(Login.this, Homesiswa.class);
+//            intent.putExtra(TAG_ID, id);
+//            intent.putExtra(TAG_USERNAME, username);
+//            intent.putExtra(TAG_KELAS, kelas);
+//            intent.putExtra(TAG_IDKELAS, id_kelas);
+//            finish();
+//            startActivity(intent);
         }
 
 
@@ -143,44 +170,121 @@ public class Login extends AppCompatActivity {
             public void onResponse(String response) {
                 Log.e(TAG, "Login Status: " + response.toString());
                 hideDialog();
+                SharedPreferences.Editor editor = sharedpreferences.edit();
 
                 try {
                     JSONObject jObj = new JSONObject(response);
                     success = jObj.getInt(TAG_SUCCESS);
 
                     // Check error json
-                    if (success == 1) {
-                        String username = jObj.getString(TAG_USERNAME);
-                        String id = jObj.getString(TAG_ID);
-                        String kelas = jObj.getString(TAG_KELAS);
-                        String id_kelas = jObj.getString(TAG_IDKELAS);
+                    switch (success){
+                        case 1 :
+                            String username = jObj.getString(TAG_USERNAME);
+                            String id = jObj.getString(TAG_ID);
+                            String kelas = jObj.getString(TAG_KELAS);
+                            String id_kelas = jObj.getString(TAG_IDKELAS);
+                            String user = jObj.getString(TAG_USER);
 
-                        Log.e("Login Success!", jObj.toString());
+                            Log.e("Login Success!", jObj.toString());
 
-                        Toast.makeText(getApplicationContext(), jObj.getString(TAG_MESSAGE), Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), jObj.getString(TAG_MESSAGE), Toast.LENGTH_LONG).show();
 
-                        // menyimpan data login ke session
-                        SharedPreferences.Editor editor = sharedpreferences.edit();
-                        editor.putBoolean(session_status, true);
-                        editor.putString(TAG_ID, id);
-                        editor.putString(TAG_USERNAME, username);
-                        editor.putString(TAG_KELAS, kelas);
-                        editor.putString(TAG_IDKELAS, id_kelas);
-                        editor.commit();
+                            // menyimpan data login ke session
+//                            SharedPreferences.Editor editor = sharedpreferences.edit();
+                            editor.putBoolean(session_status, true);
+
+                            editor.putString(TAG_USER, user);
+                            editor.putString(TAG_ID, id);
+                            editor.putString(TAG_USERNAME, username);
+                            editor.putString(TAG_KELAS, kelas);
+                            editor.putString(TAG_IDKELAS, id_kelas);
+                            editor.commit();
 
 
-                        Intent intent = new Intent(Login.this, Homesiswa.class);
-                        intent.putExtra(TAG_ID, id);
-                        intent.putExtra(TAG_USERNAME, username);
-                        editor.putString(TAG_KELAS, kelas);
-                        editor.putString(TAG_IDKELAS, id_kelas);
-                        finish();
-                        startActivity(intent);
-                    } else {
-                        Toast.makeText(getApplicationContext(),
+                            Intent intent = new Intent(Login.this, Homesiswa.class);
+                            intent.putExtra(TAG_USER, user);
+                            intent.putExtra(TAG_ID, id);
+                            intent.putExtra(TAG_USERNAME, username);
+                            editor.putString(TAG_KELAS, kelas);
+                            editor.putString(TAG_IDKELAS, id_kelas);
+                            finish();
+                            startActivity(intent);
+
+                            break;
+
+                        case 2 :
+                            String usernam = jObj.getString(TAG_USERNAME);
+                            String anak = jObj.getString(TAG_ANAK);
+                            String ortu = jObj.getString(TAG_USER);
+//                            String id = jObj.getString(TAG_ID);
+//                            String kelas = jObj.getString(TAG_KELAS);
+//                            String id_kelas = jObj.getString(TAG_IDKELAS);
+
+                            Log.e("Login Success!", jObj.toString());
+
+                            Toast.makeText(getApplicationContext(), jObj.getString(TAG_MESSAGE), Toast.LENGTH_LONG).show();
+
+                            // menyimpan data login ke session
+//                            SharedPreferences.Editor edit = sharedpreferences.edit();
+                            editor.putBoolean(session_status, true);
+
+                            editor.putString(TAG_USER, ortu);
+//                            edit.putString(TAG_ID, id);
+                            editor.putString(TAG_USERNAME, usernam);
+                            editor.putString(TAG_ANAK, anak);
+//                            edit.putString(TAG_KELAS, kelas);
+//                            edit.putString(TAG_IDKELAS, id_kelas);
+                            editor.commit();
+
+
+                            Intent inten = new Intent(Login.this, Homeortu.class);
+//                            inten.putExtra(TAG_ID, id);
+                            inten.putExtra(TAG_USERNAME, usernam);
+                            editor.putString(TAG_ANAK, anak);
+                            editor.putString(TAG_USER, ortu);
+//                            edit.putString(TAG_KELAS, kelas);
+//                            edit.putString(TAG_IDKELAS, id_kelas);
+                            finish();
+                            startActivity(inten);
+                            break;
+
+                        default:
+                            Toast.makeText(getApplicationContext(),
                                 jObj.getString(TAG_MESSAGE), Toast.LENGTH_LONG).show();
-
+                            break;
                     }
+//                    if (success == 1) {
+//                        String username = jObj.getString(TAG_USERNAME);
+//                        String id = jObj.getString(TAG_ID);
+//                        String kelas = jObj.getString(TAG_KELAS);
+//                        String id_kelas = jObj.getString(TAG_IDKELAS);
+//
+//                        Log.e("Login Success!", jObj.toString());
+//
+//                        Toast.makeText(getApplicationContext(), jObj.getString(TAG_MESSAGE), Toast.LENGTH_LONG).show();
+//
+//                        // menyimpan data login ke session
+//                        SharedPreferences.Editor editor = sharedpreferences.edit();
+//                        editor.putBoolean(session_status, true);
+//                        editor.putString(TAG_ID, id);
+//                        editor.putString(TAG_USERNAME, username);
+//                        editor.putString(TAG_KELAS, kelas);
+//                        editor.putString(TAG_IDKELAS, id_kelas);
+//                        editor.commit();
+//
+//
+//                        Intent intent = new Intent(Login.this, Homesiswa.class);
+//                        intent.putExtra(TAG_ID, id);
+//                        intent.putExtra(TAG_USERNAME, username);
+//                        editor.putString(TAG_KELAS, kelas);
+//                        editor.putString(TAG_IDKELAS, id_kelas);
+//                        finish();
+//                        startActivity(intent);
+//                    } else {
+//                        Toast.makeText(getApplicationContext(),
+//                                jObj.getString(TAG_MESSAGE), Toast.LENGTH_LONG).show();
+//
+//                    }
                 } catch (JSONException e) {
                     // JSON error
                     e.printStackTrace();

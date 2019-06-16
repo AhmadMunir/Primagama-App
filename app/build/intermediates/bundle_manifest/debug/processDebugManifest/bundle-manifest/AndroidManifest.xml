@@ -23,6 +23,10 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.primagama.bondowoso.Homeortu"
+            android:label="@string/title_activity_homeortu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.primagama.bondowoso.Homesiswa"
             android:label="@string/title_activity_homesiswa"
             android:theme="@style/AppTheme.NoActionBar" />
