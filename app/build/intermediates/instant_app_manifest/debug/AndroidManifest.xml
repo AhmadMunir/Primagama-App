@@ -24,11 +24,39 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.primagama.bondowoso.Homeortu"
+            android:name="com.primagama.bondowoso.Absen"
+            android:label="@string/title_activity_absen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.primagama.bondowoso.Absenortu"
+            android:label="@string/title_activity_absen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.primagama.bondowoso.Ortu.Jadwalanak"
+            android:label="Jadwal Anak"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.primagama.bondowoso.Siswa.Nilai"
+            android:label="@string/title_activity_nilai"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.primagama.bondowoso.Ortu.Nilaiortu"
+            android:label="@string/title_activity_nilai"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.primagama.bondowoso.Siswa.Siswareqjadwal"
+            android:label="@string/title_activity_siswareqjadwal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.primagama.bondowoso.Ortu.Homeortu"
             android:label="@string/title_activity_homeortu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.primagama.bondowoso.Homesiswa"
+            android:name="com.primagama.bondowoso.SiswaProfil"
+            android:label="Profil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.primagama.bondowoso.Siswa.Homesiswa"
             android:label="@string/title_activity_homesiswa"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.primagama.bondowoso.Login" />
@@ -46,6 +74,11 @@
             </intent-filter>
         </activity>
 
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.primagama.bondowoso.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.primagama.bondowoso.com.android.tools.ir.server.InstantRunContentProvider"

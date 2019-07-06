@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Siswa.Siswareqjadwal"
+    tools:showIn="@layout/app_bar_siswareqjadwal">
+
+    <LinearLayout
+        android:id="@+id/listmpl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Spinner
+            android:id="@+id/listmapel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/id_mapel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Msdsdsda"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/listmpl">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal : "
+            android:textColor="@color/hitam"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/tgl_terpilih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Tanggal"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btntgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_reqjdwl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tgl"
+        android:text="Request"
+        android:layout_centerHorizontal="true"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/btn_reqjdwl"
+        android:id="@+id/list_reqjadwal"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        />
+
+    
+</RelativeLayout>

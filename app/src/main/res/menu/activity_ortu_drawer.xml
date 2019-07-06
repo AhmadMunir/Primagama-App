@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homeortu"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_jadwalanak"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Jadwal Anak" />
+        <item
+            android:id="@+id/nav_absenanak"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Absen Anak" />
+        <item
+            android:id="@+id/nav_nilaianak"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Nilai Anak" />
+    </group>
+
+    <item android:title="Lain-lain">
+        <menu>
+            <item
+                android:id="@+id/nav_pengaturan"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Setting" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_first_page_black_24dp"
+        android:title="@string/log_out" />
+
+</menu>

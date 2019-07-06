@@ -14,11 +14,39 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Homeortu"
-            android:label="@string/title_activity_homeortu"
+            android:name=".Absen"
+            android:label="@string/title_activity_absen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".Homesiswa"
+            android:name=".Absenortu"
+            android:label="@string/title_activity_absen"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Ortu.Jadwalanak"
+            android:label="Jadwal Anak"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Siswa.Nilai"
+            android:label="@string/title_activity_nilai"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ortu.Nilaiortu"
+            android:label="@string/title_activity_nilai"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Siswa.Siswareqjadwal"
+            android:label="@string/title_activity_siswareqjadwal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ortu.Homeortu"
+            android:label="@string/title_activity_homeortu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SiswaProfil"
+            android:label="Profil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Siswa.Homesiswa"
             android:label="@string/title_activity_homesiswa"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Login" />
